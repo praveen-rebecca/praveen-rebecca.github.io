@@ -6,15 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="images/img1.png">
 
-    <!-- Bootstrap CSS -->
+      <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     
     <link href="carousel.css" rel="stylesheet">
 
   </head>
-  <body style="background-color: #222">
+  <body style="background-color: #222; padding-top: 100px;">
       
-   
+     <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Invitation</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#baptism">Baptism</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#wedding">Wedding</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#postWedding">Post Wedding</a>
+          </li>
+        </ul>
+      </div>
+    </nav>    
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -74,7 +93,7 @@
 <div class="container">
     <!-- Three columns of text below the carousel -->
     <hr class="featurette-divider">
-    <div class="row">
+    <div id="baptism" class="row" style="padding-top: 160px;">
         <div class="col-lg-6">
             <img class="rounded-circle mx-auto d-block" src="images/img3.png" alt="Generic placeholder image" width="200" height="200">
             <h6 class="font-colour">Baptism Of Samara  <small class="font-colour-block">(15-July-2017 @ 11.00 AM)</small>
@@ -88,7 +107,7 @@
         </div><!-- /.col-lg-4 -->
     </div>
     <hr class="featurette-divider">
-    <div class="row">
+    <div id="wedding" class="row" style="padding-top: 160px;">
         <div class="col-lg-6">
             <img class="rounded-circle mx-auto d-block" src="images/img1.jpg" alt="Generic placeholder image" width="200" height="200">
             <h6 class="font-colour">Wedding of Praveen & Rebecca  <small class="font-colour-block">(16-July-2017 @ 04.00 PM)</small>
@@ -105,7 +124,7 @@
         </div>
     </div>  
     <hr class="featurette-divider">
-    <div class="row">
+    <div id="postWedding" class="row" style="padding-top: 160px;">
         <div class="col-lg-6">
             <img class="rounded-circle mx-auto d-block" src="images/img4.png" alt="Generic placeholder image" width="200" height="200">
             <h6 class="font-colour">Post Wedding Party <small class="font-colour-block">(17-July-2017 @ 07.30 PM)</small>
